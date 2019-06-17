@@ -1,0 +1,23 @@
+{
+  "name": "drupal/drupal8_drush9_commands",
+  "description": "Create custom Drush 9 commands in Drupal 8.",
+  "type": "drupal-drush",
+  "authors": [
+    {
+      "name": "Nico",
+      "email": "nicolas.pinos@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Drupal\\drupal8_drush9_commands\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

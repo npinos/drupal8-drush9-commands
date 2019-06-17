@@ -1,0 +1,5 @@
+services:
+  drupal8_drush9_commands.commands:
+    class: \Drupal\drupal8_drush9_commands\Commands\Drupal8Drush9Commands
+    tags:
+      - { name: drush.command }

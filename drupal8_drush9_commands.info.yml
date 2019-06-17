@@ -1,0 +1,5 @@
+name: Drupal8 - Drush9 commands
+description: Example module to create custom Drush 9 commands in Drupal 8
+core: 8.x
+type: module
+package: Drupal 8 examples
